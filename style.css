@@ -1,0 +1,89 @@
+*{margin: 0;
+    padding: 0;}
+body{font-family: Arial, Helvetica, sans-serif;
+    background-color: #EAEDED;}
+header{background-color: #222F3E;}
+header img{width: 100px;
+    padding: 4px 28px;}
+.top_bar{background-color: #364759;}
+.top_bar ul{padding-left: 25px;
+    color: #EAEDED;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;}
+.top_bar ul li{display: inline-block;
+    padding: 8px 10px;}
+.advertising_bar{margin: 22px 22px;
+    background-color: #F56600;
+    text-align: center;
+    color: #EAEDED;}
+.advertising_bar h4{padding: 8px 0px;}
+.advertising_bar2{margin: 22px 22px;
+    height: 230px;
+    position: relative;
+    background-image: url(assets/bg-image.png);
+    background-size: contain;
+    color: #EAEDED;}
+.advertising_bar2 h2{position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+.advertising_bar2 h3{position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+.category_box{margin: 22px 22px;
+    background-color: #FFFFFF;}
+.category_box h3, a{padding: 12px 28px;
+    text-decoration: none;}
+.category_box a{font-size: 14px;}
+.category_container{display: inline-block;}
+.category_container img{margin: 6px 18px;
+    width: 330px;
+    height: 420px;
+    border-radius: 12%;
+    box-shadow: 9px 7px 15px 0px #DDE1E4;}
+.extra_box{display: inline-block;
+    margin: 22px 22px;
+    padding-bottom: 18px;
+    width: 336px;
+    background-color: #FFFFFF;
+    position: relative;}
+.sticker{width: 14%;
+    position: absolute;
+    top: 26%;
+    left: 34%;}
+.sticker2{width: 14%;
+    position: absolute;
+    top: 66%;
+    left: 82%;}
+.extra_box h3{margin: 12px 0px 6px 24px;}
+.extra_container{margin-left: 16px;}
+.inner_extra_container{display: inline-block;
+    padding: 6px;
+    margin: 7px;}
+.inner_extra_container img{width: 125px;}
+.inner_extra_container span{display: block;
+    font-size: 12px;
+    padding: 14px;}
+.accessories_container{margin: 22px 22px;
+    text-align: center;}
+.accessories_container img{width: 1492px;}
+.accessories_container a{font-size: 14px;}
+.footer_container{height: 2em;
+    background-color: #364759;
+    position: relative;}
+.footer_container a{color: #EAEDED;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-decoration: underline;}
+.footer_container2{height: 6em;
+    background-color: #222F3E;
+    position: relative;}
+.footer_container2 img{width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
